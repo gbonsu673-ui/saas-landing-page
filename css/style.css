@@ -125,6 +125,50 @@ img {
 .testimonial .card p:first-child {
   font-style: italic;
 }
+
+/* Pricing */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin: 50px;
+}
+
+.pricing .pricing-card-subheading {
+  margin-bottom: 30px;
+}
+
+.pricing .pricing-card-price {
+  margin-bottom: 30px;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.pricing ul {
+  margin: 30px 0;
+}
+
+.pricing ul li {
+  margin-bottom: 20px;
+}
+
+.pricing ul li i {
+  margin-right: 10px;
+}
+
+.pricing .pricing-card {
+  padding: 0px 80px;
+}
+
+.pricing .pricing-footer {
+  margin: 30px 0 10px;
+}
+
+.pricing .view-features:hover {
+  cursor: pointer;
+  font-size: 2rem;
+  transition: 0.5s;
+}
 /* Utility Classes */
 .container {
   max-width: 1100px;
@@ -138,6 +182,14 @@ img {
   padding: 0 15px;
 }
 
+/* Card */
+.card {
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
 /* Buttons */
 .btn {
   display: inline-block;
@@ -149,6 +201,7 @@ img {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  text-align: center;
   transition: 0.5s;
 }
 
@@ -230,12 +283,4 @@ img {
 .bg-black {
   background: #000;
   color: #fff;
-}
-
-/* Card */
-.card {
-  background: #fff;
-  color: #000;
-  border-radius: 10px;
-  padding: 20px;
 }
