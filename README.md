@@ -1,1 +1,1 @@
-### simple SaaS landing page
+### Simple SaaS Landing Page
